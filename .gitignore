@@ -16,6 +16,7 @@
 
 # Dependency directories
 node_modules/
+.env
 
 # Logs and databases #
 ######################
@@ -26,9 +27,12 @@ node_modules/
 # Self-Defined #
 ###################################
 # Default config for atom setting
-
 storage
 compile-cache
 dev
 .npm
 .node-gyp
+
+# Github #
+###################################
+package-lock.json

@@ -1,9 +1,10 @@
 {
-    "editor.formatOnSave": false, //set as false and allow scoping of setting per-language basis
-    "eslint.autoFixOnSave": true,
+    //"editor.formatOnSave": true, //set as false and allow scoping of setting per-language basis
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
     //"prettier.eslintIntegration": true,
-    "css.lint.unknownProperties": "ignore", //ignore composes error unknown property for css composition
-    //disable javasccript and javascriptreact default editor for jsx/js for eslint to autofix instead.    
+    "css.lint.unknownProperties": "ignore", //ignore composes error unknown property for css composition   
     "[javascript]": {
         "editor.formatOnSave": true
     },

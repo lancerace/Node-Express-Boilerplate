@@ -1,5 +1,6 @@
 {
   "env": {
+    "amd":true,
     "browser": true,
     "es6": true
   },
@@ -21,8 +22,10 @@
   },
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "error",
-    "no-console": "off",
+    "prettier/prettier": ["error", {
+    "endOfLine":"auto"
+  }],
+    "no-console": "off"
   },
   "settings": {
     "import/resolver": {
