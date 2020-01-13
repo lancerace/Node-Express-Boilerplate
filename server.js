@@ -6,7 +6,6 @@ import config from "./webpack.config";
 const compiler = webpack(config);
 const app = express(),
   port = process.env.PORT;
-const resObj = { foo: "foo", yo: "yo" };
 //in memory, file save = auto restart node server
 /*if (process.env.MODE === "development") {
   console.log("node in development mode");

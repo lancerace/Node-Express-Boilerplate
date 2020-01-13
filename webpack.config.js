@@ -55,7 +55,7 @@ module.exports = {
     //
     // 0.0.0.0 is available to all network devices
     // unlike default `localhost`.
-    host: "localhost", // Defaults to `localhost`
+    host: process.env.HOST, // Defaults to `localhost`
     port: 8080, // Defaults to 8080
     open: true // Open the page in browser
   }
